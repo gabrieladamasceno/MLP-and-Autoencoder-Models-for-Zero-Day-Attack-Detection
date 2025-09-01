@@ -35,7 +35,7 @@ To run the experiments, you need to:
 
 ## Contact
 
-GitHub: @gabrieladamasceno
+GitHub: https://github.com/gabrieladamasceno 
 
 Email: mgabrieladamasceno@gmail.com
 
