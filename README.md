@@ -33,15 +33,6 @@ To run the experiments, you need to:
 1. Download the dataset from the original source https://ieee-dataport.org/documents/5g-nidd-comprehensive-network-intrusion-detection-dataset-generated-over-5g-wireless (or use your own dataset).  
 2. Place it in your Google Drive (if running on Google Colab) or in the local `data/` folder.  
 
-Example for Google Colab:  
-
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-
-# Replace this path with your dataset path in your Google Drive
-DATASET_PATH = "/content/drive/MyDrive/your_dataset.csv"
-
 ## Contact
 
 GitHub: @gabrieladamasceno
