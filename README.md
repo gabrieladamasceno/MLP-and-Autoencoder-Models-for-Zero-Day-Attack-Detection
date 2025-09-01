@@ -15,6 +15,7 @@ This repository contains the experiments and models developed for detecting zero
 ## Structure
 
 ├── MLP Model
+
 ├── Autoencoder Model
 
 ## Results
@@ -22,4 +23,28 @@ This repository contains the experiments and models developed for detecting zero
 MLP showed the best overall performance in detecting zero-day attacks.
 
 Autoencoder achieved satisfactory results in unknown anomaly scenarios, with lower computational costs.
+
+## Dataset
+
+The dataset used in this project is **not included** in the repository due to size and licensing restrictions.  
+
+To run the experiments, you need to:  
+
+1. Download the dataset from the original source https://ieee-dataport.org/documents/5g-nidd-comprehensive-network-intrusion-detection-dataset-generated-over-5g-wireless (or use your own dataset).  
+2. Place it in your Google Drive (if running on Google Colab) or in the local `data/` folder.  
+
+Example for Google Colab:  
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Replace this path with your dataset path in your Google Drive
+DATASET_PATH = "/content/drive/MyDrive/your_dataset.csv"
+
+## Contact
+
+GitHub: @gabrieladamasceno
+
+Email: mgabrieladamasceno@gmail.com
 
